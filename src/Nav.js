@@ -5,14 +5,15 @@ import { Link } from 'react-router-dom'
 export default function Nav() {
 
     return (
-        <nav className="nav-bar">
-            <ul className="nav-list">
-                <li className="nav-item"><Link to={`/`} className="nav-link">Home</Link></li>
-                <li className="nav-item"><Link to={`/about`} className="nav-link">About</Link></li>
-                <li className="nav-item"><Link to={`/articles`} className="nav-link">Articles</Link></li>
-                <li className="nav-item"><Link to={`/runways`} className="nav-link">On the Runway</Link></li>
-                <li className="nav-item"><Link to={`/news`} className="nav-link">News</Link></li>
-            </ul>
+        <nav className="nav-bar">           
+                <Link className="nav-item" to={`/`} >Home</Link>
+                <Link className="nav-item" to={`/about`}>About</Link>
+                <Link className="nav-item" to={`/articles`}>Articles</Link>
+                <Link className="nav-item" to={`/runways`}>On the Runway</Link>
+                <Link className="nav-item" to={`/news`} >News</Link>
+            <div className="dot"></div>
         </nav>
+
+
     )
 }

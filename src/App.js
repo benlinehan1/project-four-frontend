@@ -6,10 +6,12 @@ import ArticleList from './Articles/ArticleList.js';
 import Footer from './Footer.js';
 import RunwaysList from './Runway/RunwaysList.js';
 import Carousel from './Homepage/Carousel.js';
-import HotPosts from './Homepage/HotPosts';
 import HomepageEntries from './Homepage/HomepageEntries';
 import AboutPage from './AboutPage.js';
 import NewsList from './News/NewsList.js';
+import Article from './Articles/Article.js';
+import NewsItem from './News/NewsItem.js';
+import RunwayItem from './Runway/RunwayItem.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   
@@ -20,43 +22,79 @@ class App extends Component {
       articles: [
         {
           title: "Schiaparelli's Revolutionary Take on Surrealism Fashion",
-          img: "https://media.tatler.com/photos/6141cf0e970aecd0f140bb49/3:2/w_1920,h_1280,c_limit/schiaparelli_hcfw2122_look_13_daniel_roseberry-square.jpg"
+          img: "https://media.tatler.com/photos/6141cf0e970aecd0f140bb49/3:2/w_1920,h_1280,c_limit/schiaparelli_hcfw2122_look_13_daniel_roseberry-square.jpg",
+          imgspan: "Model Rouguy Faye in Schiaparelli Fall 2021 Couture.",
+          articleHeading1: "The History of this Iconic House.",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 2",
-          img: "https://i.pinimg.com/736x/b7/0e/4c/b70e4cb04116e63119347167e7f8a310--chartreuse-dress-podium.jpg"
+          title: "Colours I believe are against the Geneva Convention",
+          img: "https://i.pinimg.com/736x/b7/0e/4c/b70e4cb04116e63119347167e7f8a310--chartreuse-dress-podium.jpg",
+          imgspan: "Chartreuse being displayed on the runway.",
+          articleHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 3",
-          img: "https://via.placeholder.com/500x250"
+          title: "The Return of the Mullet: Dark days ahead? Or the herald of a modern fashionista's dream?",
+          img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/miley-cyrus-short-mullet-1600430107.jpg",
+          imgspan: "Miley Cyrus's mullet, an example of the new fashion wave.",
+          articleHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
       ],
       runways: [
         {
-          title: "Placeholder 1",
-          img: "https://via.placeholder.com/500x250"
+          title: "Louis Vuitton Spring 2022 Ready to Wear",
+          img: "https://graziamagazine.com/wp-content/uploads/2021/10/GettyImages-1345021711.jpg?resize=1024%2C682",
+          imgspan: "PLaceholder.",
+          runwayHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 2",
-          img: "https://via.placeholder.com/500x250"
+          title: "Savage x Fenty Show",
+          img: "https://hollywoodlife.com/wp-content/uploads/2021/09/normani-savage-fenty-vol-3-embed11.jpg",
+          imgspan: "Placeholder.",
+          runwayHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 3",
-          img: "https://via.placeholder.com/500x250"
+          title: "Balenciaga Spring 2022 Ready to Wear",
+          img: "https://i.ytimg.com/vi/w4g8-vtHIHE/maxresdefault.jpg",
+          imgspan: "Placeholder.",
+          runwayHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
       ],
       news: [
         {
-          title: "Placeholder 1",
-          img: "https://via.placeholder.com/500x250"
+          title: "Grimes and Elon: The uncoventional couple of the year call it quits.",
+          img: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F614df67cfd35362d32a2a153%2F0x0.jpg%3FcropX1%3D217%26cropX2%3D3000%26cropY1%3D99%26cropY2%3D1664",
+          imgspan: "Grimes and their former partner Elon at the MET Gala.",
+          newsHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 2",
-          img: "https://via.placeholder.com/500x250"
+          title: "Charli XCX's triumphant return to the mainstream.",
+          img: "https://pyxis.nymag.com/v1/imgs/e19/a11/d13edea0f6ca4e70e924f465eb756b7ff9-charli-xcx-good-ones.jpg",
+          imgspan: "Charli XCX in her most recent music video.",
+          newsHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
         {
-          title: "Placeholder 3",
-          img: "https://via.placeholder.com/500x250"
+          title: "Azaelia Banks: Incredible Rapstress and Social Commentary voice we need in 2021?",
+          img: "https://thefader-res.cloudinary.com/private_images/w_760,c_limit,f_auto,q_auto:best/GettyImages-170197939_czvere/azealia-banks-elon-musk-song-yung-rapunxel-2-alon-dust-execution.jpg",
+          imgspan: "Azaelia Banks performing.",
+          newsHeading1: "Placeholder",
+          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
       ]
     }
@@ -66,7 +104,7 @@ class App extends Component {
       return (
       <div className="App">
         <header>
-          <h1>Bennethy's Good Ones</h1>
+          <h1 className="pagetitle">Bennethy's Good Ones</h1>
         </header>
           <Nav />
             
@@ -75,14 +113,23 @@ class App extends Component {
         <Route path="/articles">
           <ArticleList articles={this.state.articles}/>
         </Route>
+        <Route path="/article/:index">
+          <Article articleList={this.state.articles}/>
+        </Route>
         <Route path="/runways">
           <RunwaysList runways={this.state.runways}/>
+        </Route>
+        <Route path="/runway/:index">
+          <RunwayItem runwayList={this.state.runways}/>
         </Route>
         <Route path="/about">
           <AboutPage />
         </Route>
-        <Route path="/news">
+        <Route exact path="/news">
           <NewsList news={this.state.news}/>
+        </Route>
+        <Route path="/news/:index">
+          <NewsItem newsList={this.state.news}/>
         </Route>
         <Route path="/">
           <h3>Featured Posts</h3>
@@ -91,6 +138,7 @@ class App extends Component {
             <HomepageEntries />
             {/* <HotPosts /> */}
         </Route>
+
 
         
 
