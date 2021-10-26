@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar {
+  
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  background-color: #c0c4cc;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0px;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: inline;
+  border-right: 1px solid black;
+}
+
+.nav-link {
+  display: block;
+  padding: 6px;
+}
+
+.carousel-wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* .hotposts {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.homepageentries-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+.homepage-posts {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.photo-aboutus {
+  width: 30%;
+  border-radius: 50%;
+  border: 10px solid rgb(190, 190, 190);
+}
+
+.article-listimg {
+  width: 500px;
+  height: 250px;
+}
