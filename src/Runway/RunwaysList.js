@@ -5,7 +5,7 @@ export default function RunwaysList(props) {
 
     const runways = props.runways
     return(
-        <main>
+        <main className="runway-list-container">
             <h3>Recent Runway's.</h3>
         {runways.map((runway, index) => <article>
             <img className="runway-list-img" src={runway.img} alt="runway-elem" />

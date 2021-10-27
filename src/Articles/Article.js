@@ -1,4 +1,4 @@
-import { render } from "react-dom/cjs/react-dom.development"
+
 import { useParams } from "react-router-dom"
 
 export default function Article(props) {

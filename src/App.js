@@ -41,7 +41,7 @@ class App extends Component {
           img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/miley-cyrus-short-mullet-1600430107.jpg",
           imgspan: "Miley Cyrus's mullet, an example of the new fashion wave.",
           articleHeading1: "Placeholder",
-          paragraph1: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, repellendus? Corporis magni in a iste provident cum rem, qui aut eligendi culpa ex, quos tempore suscipit facere. Repudiandae, minus nesciunt?",
+          paragraph1: "I'm baby fixie tote bag mixtape kale chips, salvia fam meditation. DIY woke next level, XOXO locavore jianbing try-hard taxidermy lomo vegan. Edison bulb franzen tumeric unicorn, banh mi waistcoat hot chicken trust fund narwhal post-ironic fanny pack. Readymade squid austin letterpress, jean shorts gochujang organic authentic. Whatever pop-up hell of hammock, four loko austin fingerstache 90's artisan semiotics vice umami. Pug tacos banh mi XOXO vinyl tbh. Pitchfork shoreditch whatever bitters, seitan raclette enamel pin vaporware next level wayfarers venmo.",
           paragraph2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit laborum beatae saepe fugit sed odio ea vel! Rerum, quia! Reiciendis consequatur doloremque quos recusandae porro quia possimus et in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsam veniam recusandae soluta optio natus. Asperiores quo, ad assumenda laborum fuga reiciendis rem eos laudantium inventore hic provident, doloribus optio!"
         },
       ],
@@ -132,7 +132,7 @@ class App extends Component {
           <NewsItem newsList={this.state.news}/>
         </Route>
         <Route path="/">
-          <h3>Featured Posts</h3>
+          <h3 className="featuredposts">Featured Posts</h3>
           <Carousel />
           
             <HomepageEntries />
