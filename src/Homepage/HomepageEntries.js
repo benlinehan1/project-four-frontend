@@ -22,9 +22,12 @@ export default function HomepageEntries() {
                             amfay icrodosingmay ambraychay.</p>
                         <img className="eshaypic" src="https://content.api.news/v3/images/bin/d1b5b5d9e83428c5dcaef5e6c760fc23" alt="eshay"></img>
                 </article>
-                <article>
-                    <h3>Homepage post two</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non exercitationem quae repellendus? Illum fugit vitae hic voluptatum tenetur ea laborum, esse at iusto ipsum minima aliquam vel, voluptate architecto placeat.</p>
+                <article className="hipsterarticle">
+                    <h3>Hipsters are the New World Order. What should you do to prepare?</h3>
+                    <p>I'm baby salvia artisan DIY post-ironic, meditation migas disrupt whatever cloud bread. Whatever art party dreamcatcher four loko. Cronut blog church-key kale chips bushwick, meggings subway tile squid mustache banjo. Messenger bag waistcoat poke offal actually four loko portland fam microdosing chambray.</p>
+
+                    <p>Gluten-free art party vaporware lomo photo booth keytar live-edge cred tumeric. Taxidermy live-edge sriracha portland organic, iPhone artisan flannel. Prism green juice gastropub leggings health goth man bun chambray tacos street art tousled. Authentic roof party yr cloud bread. Bushwick la croix unicorn vice YOLO taiyaki skateboard jean shorts readymade.</p>
+                    <img className="hipsterpic" src="https://images.theconversation.com/files/64701/original/wn26t52p-1416218879.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="hipster" />
                 </article>
 
             </div>

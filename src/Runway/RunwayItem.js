@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function RunwayItem(props) {
 
@@ -17,8 +18,13 @@ export default function RunwayItem(props) {
             </div>
             <div className="textwrapper">
                 <h3>{runway.runwayHeading1}</h3>
-                <p>{runway.paragraph1}</p>
-                <p>{runway.paragraph2}</p>
+                {runway.paragraphs.map(paragraph => 
+                    <p>{paragraph}</p>
+                )}
+            </div>
+            <h4>Some of Bennethy's Top 'Good Ones' from this Collection:</h4>
+            <div className="carouselLV">
+                {runway.carousel}
             </div>
         </div>
     )

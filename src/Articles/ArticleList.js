@@ -7,7 +7,7 @@ export default function ArticleList(props) {
 
     
     return(
-        <main className="article-wrapper">     
+        <main className="article-list-wrapper">     
         <h3>Recent Article's.</h3>
             {articles.map((article, index) => <article>
                 <img className="article-listimg" src={article.img} alt="placeholder"/>

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
 .App {
   /* text-align: center; */
   background-color: #EAE7DC;
+  font-family: 'Varela', sans-serif;
 }
 
 .App-logo {
@@ -90,31 +94,31 @@
 }
 
 .nav-bar a:nth-child(1):hover ~ .dot {
-  transform: translateX(33px);
+  transform: translateX(35px);
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .nav-bar a:nth-child(2):hover ~ .dot {
-  transform: translateX(113px);
+  transform: translateX(119px);
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .nav-bar a:nth-child(3):hover ~ .dot {
-  transform: translateX(203px);
+  transform: translateX(214px);
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .nav-bar a:nth-child(4):hover ~ .dot {
-  transform: translateX(333px);
+  transform: translateX(346px);
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .nav-bar a:nth-child(5):hover ~ .dot {
-  transform: translateX(455px);
+  transform: translateX(472px);
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
@@ -131,6 +135,27 @@
 .carousel-wrapper {
   margin: 0 auto;
   width: 50%;
+  border: 8px solid #8E8D8A;
+
+  border-radius: 1%;
+}
+
+.carouselLVwrapper {
+  margin: 0 auto;
+  width: 50%;
+  border: 8px solid #8E8D8A;
+
+  border-radius: 1%;
+  
+}
+
+.carouselSXFwrapper {
+  margin: 0 auto;
+  width: 50%;
+  border: 8px solid #8E8D8A;
+
+  border-radius: 1%;
+  
 }
 
 /* .hotposts {
@@ -158,6 +183,17 @@
   padding-right: 20px;
 }
 
+.runwaywrapper {
+  text-align: center;
+}
+
+.about-page {
+  text-align: center;
+}
+
+.about-wrapper {
+  padding: 10px, 10px, 10px, 10px;
+}
 .photo-aboutus {
   width: 30%;
   border-radius: 50%;
@@ -181,6 +217,22 @@
   object-fit: cover;
 }
 
+.articlewrapper {
+  text-align: center;
+}
+
+.article-list-wrapper {
+  text-align: center;
+}
+
+.newswrapper {
+  text-align: center;
+}
+
+.news-list-wrapper {
+  text-align: center;
+}
+
 .news-list-img {
   width: 500px;
   height: 250px;
@@ -198,11 +250,7 @@
   text-align: center;
 }
 
-.carousel-wrapper {
-  border: 8px solid #8E8D8A;
 
-  border-radius: 1%;
-}
 
 .d-block w-100 {
   width: 500px;
@@ -267,4 +315,19 @@
 
 .runway-list-container {
   text-align: center;
+}
+
+.hipsterpic {
+  width: 80%;
+  border: 8px solid #8E8D8A;
+}
+
+.hipsterarticle {
+  width: 90%;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
 }

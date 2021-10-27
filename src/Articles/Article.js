@@ -24,8 +24,9 @@ export default function Article(props) {
             </div>
             <div className="textwrapper">
                 <h3>{article.articleHeading1}</h3>
-                <p>{article.paragraph1}</p>
-                <p>{article.paragraph2}</p>
+                {article.paragraphs.map(paragraph => 
+                    <p>{paragraph}</p>
+                    )}
             </div>
         </div>
     )

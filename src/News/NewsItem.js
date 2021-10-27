@@ -20,8 +20,9 @@ export default function NewsItem(props) {
             </div>
             <div className="textwrapper">
                 <h3>{news.newsHeading1}</h3>
-                <p>{news.paragraph1}</p>
-                <p>{news.paragraph2}</p>
+                {news.paragraphs.map(paragraph => 
+                    <p>{paragraph}</p>
+                )}
             </div>
         </div>
     )
