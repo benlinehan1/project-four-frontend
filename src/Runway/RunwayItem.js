@@ -12,17 +12,17 @@ export default function RunwayItem(props) {
     return(
         <div className="runwaywrapper">
             <div className="runwayhead">
-                <h1>{runway.title}</h1>
+                <h1 className="titlecolouring">{runway.title}</h1>
                 <img src={runway.img} className="runway-head-img" alt="runway" />
                 <span><p>{runway.imgspan}</p></span>
             </div>
             <div className="textwrapper">
-                <h3>{runway.runwayHeading1}</h3>
+                <h3 className="minortitlecolouring">{runway.runwayHeading1}</h3>
                 {runway.paragraphs.map(paragraph => 
                     <p>{paragraph}</p>
                 )}
             </div>
-            <h4>Some of Bennethy's Top 'Good Ones' from this Collection:</h4>
+            <h4 className="minortitlecolouring">Some of Bennethy's Top 'Good Ones' from this Collection:</h4>
             <div className="carouselLV">
                 {runway.carousel}
             </div>

@@ -5,7 +5,7 @@ export default function HomepageEntries() {
         <div className="homepageentries-container">
             <div className="homepage-posts">
                 <article className="eshayarticle">
-                    <h3>Are eshays really cringe? Or are they high fashion and camp?</h3>
+                    <h3 className="titlecolouring">Are eshays really cringe? Or are they high fashion and camp?</h3>
                             <p>Eythay actuallyway ooklay indkay ofway oodgay otay ebay onesthay
                             . Eythay areway alwaysway inway ikelay Ommytay Ilfigerhay 
                             ichwhay isway unfay andway eshfray. Utbay eythay alsoway ytray 
@@ -23,7 +23,7 @@ export default function HomepageEntries() {
                         <img className="eshaypic" src="https://content.api.news/v3/images/bin/d1b5b5d9e83428c5dcaef5e6c760fc23" alt="eshay"></img>
                 </article>
                 <article className="hipsterarticle">
-                    <h3>Hipsters are the New World Order. What should you do to prepare?</h3>
+                    <h3 className="titlecolouring">Hipsters are the New World Order. What should you do to prepare?</h3>
                     <p>I'm baby salvia artisan DIY post-ironic, meditation migas disrupt whatever cloud bread. Whatever art party dreamcatcher four loko. Cronut blog church-key kale chips bushwick, meggings subway tile squid mustache banjo. Messenger bag waistcoat poke offal actually four loko portland fam microdosing chambray.</p>
 
                     <p>Gluten-free art party vaporware lomo photo booth keytar live-edge cred tumeric. Taxidermy live-edge sriracha portland organic, iPhone artisan flannel. Prism green juice gastropub leggings health goth man bun chambray tacos street art tousled. Authentic roof party yr cloud bread. Bushwick la croix unicorn vice YOLO taiyaki skateboard jean shorts readymade.</p>
@@ -33,9 +33,9 @@ export default function HomepageEntries() {
             </div>
             <div>
                 <aside className="hotposts">
-                    <h4>Our Hottest Posts:</h4>
+                    <h4 className="titlecolouring">Our Hottest Posts:</h4>
 
-                    <h6>Mullet Investigation:</h6>
+                    <h6 className="minortitlecolouring">Mullet Investigation:</h6>
                     <p>Bennethy's Good Ones takes a deep dive into whether or not mullets are coming back into style. Is this a new era for hair? Or is it a desolate time to be a hairdresser?</p>
                     <Link to="/article/2"><span><p>More...</p></span></Link>
                     <img className="asidepics" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/miley-cyrus-short-mullet-1600430107.jpg" alt="mullet" />

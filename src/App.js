@@ -138,7 +138,7 @@ class App extends Component {
           <NewsItem newsList={this.state.news}/>
         </Route>
         <Route path="/">
-          <h3 className="featuredposts">Featured Posts</h3>
+          <h3 className="featuredposts">Featured Posts:</h3>
           <Carousel />
           
             <HomepageEntries />

@@ -8,10 +8,10 @@ export default function ArticleList(props) {
     
     return(
         <main className="article-list-wrapper">     
-        <h3>Recent Article's.</h3>
+        <h3 className="titlecolouring">Recent Articles:</h3>
             {articles.map((article, index) => <article>
                 <img className="article-listimg" src={article.img} alt="placeholder"/>
-                <Link className="link" to={`/article/${index}` }><h3 key={index}>{article.title}</h3></Link>
+                <Link className="link" to={`/article/${index}` }><h4 className="minortitlecolouring" key={index}>{article.title}</h4></Link>
             </article>)}
 
 

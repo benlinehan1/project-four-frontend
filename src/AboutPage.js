@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className="about-page">
 
             <div className="about-wrapper">
-            <h2>About Bennethy's Good Ones.</h2>
+            <h2 className="titlecolouring">About Bennethy's Good Ones.</h2>
             <p>This website is a fashion website created by Benjamin Linehan for his final Software Engineering Project at General Assembly. Ben, or 'Bennethy' as his friends and classmates refer to him as, has a keen passion for fashion which has led him to creating this website.</p>
             </div>
             {/* <p></p> */}

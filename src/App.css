@@ -246,8 +246,16 @@
 }
 
 .pagetitle {
-  color: #E98074;
+  color: #E85A4F;
   text-align: center;
+}
+
+.titlecolouring {
+  color: #E85A4F;
+}
+
+.minortitlecolouring {
+  color: #E98074
 }
 
 
@@ -287,6 +295,7 @@
 
 .featuredposts {
   text-align: center;
+  color: #E85A4F;
 }
 
 .eshayarticle {
@@ -311,6 +320,7 @@
 
 .newheading {
   padding-top: 10px;
+  color: #E98074
 }
 
 .runway-list-container {
@@ -330,4 +340,5 @@
 footer {
   text-align: center;
   padding: 20px;
+  color: #E85A4F;
 }
