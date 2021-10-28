@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+README:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bennethy's Good One's is a fully Front End Website I have created for my final project at General Assembly. I wanted to make this website so that I could marry my passions of fashion and coding. The website is laced with my humour as well as my coding abilities so far. I created this website using React, Javascript and CSS. I've also utilised libraries such as React Bootstrap and React-Router-Dom to allow this application to be fully frontend.
 
-## Available Scripts
+This app includes different articles that are mean to imitate a usual fashion website, while still putting my personal spin on it. I used React Bootstrap to assist with one side of the components I utilised, which would be the Carousels that are feature pieces in multiple sections of my website. Other than that, any other components that have been featured on the website are my own creation.
 
-In the project directory, you can run:
+In terms of the approach I took, I always begin by brainstorming and setting up a plan. I generally will always create a Trello and a Wireframe so I can draft up a rough idea of what my website will look like. Albeit, this will generally change as I continue to create. From there I will begin to code. I started by the creation of each base page such as the home and about page while also beginning to create my state. Once I finish these layouts, I will generally then go about making these pages look a bit prettier before diving into more specific pages. Of course, before I create specific pages I have to create the routes to these. Once the routes have been created, I move on to formatting these pages. By this point, I should have the rough draft of every page completed.
 
-### `npm start`
+At this point, I begin to start the main portion of CSS on my page. After this is finished, I started to try and replace some of the 'Lorem Ipsum Dolor' with actual articles I have written. This is something that I was unable to complete save for one article due to how large they are. So, some of the articles are still filled out with variants of Lorem Ipsum.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A Major hurdle I encountered while creating this website was finding a way to utilise state in the way most would use a database. This became especially tricky when I had to pass components through state. But, eventually I was able to work these kinks out effectively.
