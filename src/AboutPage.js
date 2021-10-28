@@ -7,7 +7,7 @@ export default function AboutPage() {
 
             <div className="about-wrapper">
             <h2 className="titlecolouring">About Bennethy's Good Ones.</h2>
-            <p>This website is a fashion website created by Benjamin Linehan for his final Software Engineering Project at General Assembly. Ben, or 'Bennethy' as his friends and classmates refer to him as, has a keen passion for fashion which has led him to creating this website.</p>
+            <p>This website is a fashion website created by Benjamin Linehan for his final Software Engineering Project at General Assembly. Ben, or 'Bennethy' as his friends and classmates refer to him as, has a keen passion for fashion which has led him to creating this website. This website features articles from some of his favourite brands, namely Schiaparelli and Balenciaga, as well as other pop culture news stories. Bennethy will share his top 'Good Ones' from each of the runways featured.</p>
             </div>
             {/* <p></p> */}
 
