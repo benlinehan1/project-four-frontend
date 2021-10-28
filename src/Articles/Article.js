@@ -28,6 +28,10 @@ export default function Article(props) {
                     <p>{paragraph}</p>
                     )}
             </div>
+            <h4 className="minortitlecolouring">{article.carouselheading}</h4>
+            <div>
+                {article.carousel}
+            </div>
         </div>
     )
 

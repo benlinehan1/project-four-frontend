@@ -11,7 +11,7 @@ export default function NewsList(props) {
             <h3 className="titlecolouring">Recent News Articles.</h3>
             {newsList.map((news, index) => <article>
                 <img className="news-list-img" src={news.img} alt="news-elem" />
-                <Link className="link" to={`/news/${index}`}><h4 className="minortitlecolouring" key={index}>{news.title}</h4></Link>
+                <Link className="link" to={`/news/${index}`}><h4 className="listtitle" key={index}>{news.title}</h4></Link>
             </article>)}
         </main>
     )

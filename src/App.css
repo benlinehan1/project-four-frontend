@@ -158,6 +158,13 @@
   
 }
 
+.carouselSchiapwrapper {
+  margin: 0 auto;
+  width: 50%;
+  border: 8px solid #8E8D8A;
+  border-radius: 1%;
+}
+
 /* .hotposts {
   width: 30%;
   padding-left: 15px;
@@ -341,4 +348,14 @@ footer {
   text-align: center;
   padding: 20px;
   color: #E85A4F;
+}
+
+.homepageentries-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.listtitle {
+  padding: 10px;
+  color: #E98074;
 }
